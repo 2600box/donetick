@@ -17,6 +17,6 @@ services:
     environment:
       - DT_ENV=prod
     hostname: donetick-core
-    command: ["/donetick-core"]  # Command to execute your binary inside the container
+    command: ["/donetick"]  # Command to execute your binary inside the container
 networks:
   default:
